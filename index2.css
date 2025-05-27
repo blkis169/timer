@@ -1,0 +1,56 @@
+.controler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 200px
+}
+
+.controler div{
+    text-align: center;
+    font-size: 20px;
+    background-color: #37291e;
+    width: 70px;
+    height: 30px;
+    color: #DFD0B8;
+    border-radius: 10px;
+    font-family: "Radio Canada", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    border: solid black 1px;
+    box-shadow: 10px 10px 8px 0px black;   
+    cursor: pointer;
+}
+@keyframes control {
+
+    25%{
+    border-radius: 5px;
+    }
+
+    50%{
+    box-shadow: 0px 0px 0px 0px black;
+    }
+
+    75%{
+    width: 72px;
+    box-shadow: 0px 0px 0px 0px black;
+    }
+
+    100%{
+    height: 32;
+    width: 72px;
+    box-shadow: 0px 0px 0px 0px black;
+    }
+}
+
+
+
+.controler div:hover{
+animation: control 0.5s forwards 1 ;
+
+
+}
