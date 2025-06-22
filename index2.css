@@ -54,3 +54,45 @@ animation: control 0.5s forwards 1 ;
 
 
 }
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+}
+
+li{
+    font-size: 12px;
+    font-size: 12px;
+    background-color: black;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    opacity: 0%;
+}
+
+.fifty-nine-min ul {
+    width:150px;
+    height: 150px;
+}
+
+@keyframes animationhover {
+    25%{
+        opacity: 25%;
+    }
+
+        50% {
+            opacity: 50%;
+        }
+
+                75% {
+                    opacity: 75%;   }
+
+                                        100% {
+                                            opacity: 100%;               }
+}
