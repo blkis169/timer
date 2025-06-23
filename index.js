@@ -21,29 +21,29 @@ let sec_list = []
 
 
 
-twinty_threee.addEventListener('mouseenter',()=>{
-    list_one.style.display = "flex"
+// twinty_threee.addEventListener('mouseenter',()=>{
+//     list_one.style.display = "flex"
     
     
-    if(list_one.classList.contains("no-hours")){
-        for (let i = 0 ; i <23  ; i++){
-            let li_list = document.createElement("li");
-            li_list.textContent = [i + 1]
-            list_one.appendChild(li_list);
-            twinty_threee.appendChild(list_one);
-            hours_list.push(li_list)
-            li_list.style.animation = "animationhover 1s forwards 1"
-            li_list.classList.add("from_hours")
-            li_list.classList.add(`${i+1}`);
-        }
-        list_one.classList.remove("no-hours")
-    }
+//     if(list_one.classList.contains("no-hours")){
+//         for (let i = 0 ; i <23  ; i++){
+//             let li_list = document.createElement("li");
+//             li_list.textContent = [i + 1]
+//             list_one.appendChild(li_list);
+//             twinty_threee.appendChild(list_one);
+//             hours_list.push(li_list)
+//             li_list.style.animation = "animationhover 1s forwards 1"
+//             li_list.classList.add("from_hours")
+//             li_list.classList.add(`${i+1}`);
+//         }
+//         list_one.classList.remove("no-hours")
+//     }
 
-})
+// })
 
-twinty_threee.addEventListener('mouseleave',()=>{
- list_one.style.display = "none"
-})
+// twinty_threee.addEventListener('mouseleave',()=>{
+//  list_one.style.display = "none"
+// })
 
 fifty_nine_min.addEventListener('mouseenter', ()=>{
     list_tow.style.display = "flex";
