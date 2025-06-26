@@ -88,6 +88,8 @@ let li57m = document.createElement("li");
 let li58m = document.createElement("li");
 let li59m = document.createElement("li");
 
+let t_t_li_arr_m = [li1m,li2m,li3m,li4m,li5m,li6m,li7m,li8m,li9m,li10m,li11m,li12m,li13m,li14m,li15m,li16m,li17m,li18m,li19m,li20m,li21m,li22m,li23m,li24m,li25m,li26m,li27m,li28m,li29m,li30m,li31m,li32m,li34m,li35m,li36m,li37m,li38m,li39m,li40m,li41m,li42m,li43m,li44m,li45m,li46m,li47m,li48m,li49m,li50m,li51m,li52m,li53m,li54m,li55m,li56m,li57m,li58m,li59m]
+
 
 
 
@@ -115,10 +117,29 @@ t_t_li_arr.forEach((li)=>{
 })
 
 
+fifty_nine_min.addEventListener('mouseenter',()=>{
+    t_t_li_arr_m.forEach((el,ind)=>{
+        list_tow.style.display = "flex"
+        el.style.opacity ="100%";
+        el.style.animation = "animationhover 1s forwards 1"
+        list_tow.appendChild(el)
+        fifty_nine_min.appendChild(list_tow)
+        el.textContent = ind+1
+    }
+        )
+})
+
+fifty_nine_min.addEventListener('mouseleave',()=>{
+    list_tow.style.display = "none"
+})
 
 
 
-
+t_t_li_arr_m.forEach((li)=>{
+    li.addEventListener('click',function(){
+       fifty_nine_min.textContent = li.textContent;
+    })
+})
 
 
 

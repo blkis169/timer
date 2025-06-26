@@ -45,25 +45,25 @@ let sec_list = []
 //  list_one.style.display = "none"
 // })
 
-fifty_nine_min.addEventListener('mouseenter', ()=>{
-    list_tow.style.display = "flex";
-     if(list_tow.classList.contains("no-min")){
-        for (let i = 0 ; i <59  ; i++){
-            let li_list = document.createElement("li");
-            li_list.textContent = [i + 1]
-            list_tow.appendChild(li_list);
-            fifty_nine_min.appendChild(list_tow);
-            min_list.push(li_list)
-              li_list.style.animation = "animationhover 1s forwards 1"
-              li_list.classList.add(`${i+1}`);
-        }
-        list_tow.classList.remove("no-min")
-     }
+// fifty_nine_min.addEventListener('mouseenter', ()=>{
+//     list_tow.style.display = "flex";
+//      if(list_tow.classList.contains("no-min")){
+//         for (let i = 0 ; i <59  ; i++){
+//             let li_list = document.createElement("li");
+//             li_list.textContent = [i + 1]
+//             list_tow.appendChild(li_list);
+//             fifty_nine_min.appendChild(list_tow);
+//             min_list.push(li_list)
+//               li_list.style.animation = "animationhover 1s forwards 1"
+//               li_list.classList.add(`${i+1}`);
+//         }
+//         list_tow.classList.remove("no-min")
+//      }
 
-})
-fifty_nine_min.addEventListener('mouseleave',()=>{
-     list_tow.style.display = "none"
-    })
+// })
+// fifty_nine_min.addEventListener('mouseleave',()=>{
+//      list_tow.style.display = "none"
+//     })
 
 
 
