@@ -67,25 +67,25 @@ let sec_list = []
 
 
 
-    fifty_nine_sec.addEventListener('mouseenter', ()=>{
-        list_three.style.display = "flex";
-         if(list_three.classList.contains("no-sec")){
-            for (let i = 0 ; i <59  ; i++){
-                let li_list = document.createElement("li");
-                li_list.textContent = [i + 1]
-                list_three.appendChild(li_list);
-                fifty_nine_sec.appendChild(list_three);
-                sec_list.push(li_list)
-                  li_list.style.animation = "animationhover 1s forwards 1"
-                  li_list.classList.add(`${i+1}`);
-            }
-            list_three.classList.remove("no-sec")
-         }
+    // fifty_nine_sec.addEventListener('mouseenter', ()=>{
+    //     list_three.style.display = "flex";
+    //      if(list_three.classList.contains("no-sec")){
+    //         for (let i = 0 ; i <59  ; i++){
+    //             let li_list = document.createElement("li");
+    //             li_list.textContent = [i + 1]
+    //             list_three.appendChild(li_list);
+    //             fifty_nine_sec.appendChild(list_three);
+    //             sec_list.push(li_list)
+    //               li_list.style.animation = "animationhover 1s forwards 1"
+    //               li_list.classList.add(`${i+1}`);
+    //         }
+    //         list_three.classList.remove("no-sec")
+    //      }
     
-    })
-    fifty_nine_sec.addEventListener('mouseleave',()=>{
-        list_three.style.display = "none"
-        })
+    // })
+    // fifty_nine_sec.addEventListener('mouseleave',()=>{
+    //     list_three.style.display = "none"
+    //     })
 
 
 
